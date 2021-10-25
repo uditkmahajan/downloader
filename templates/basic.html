@@ -39,15 +39,18 @@
       color: white !important;
       font-size: 1.5vw;
     }
-    .des p{
-      font-size: 1.5vw!important;
+
+    .des p {
+      font-size: 1.5vw !important;
     }
-    .navbar-brand, .nav-link{
-      margin-bottom: 5px!important;
+
+    .navbar-brand,
+    .nav-link {
+      margin-bottom: 5px !important;
     }
 
     nav .navbar-collapse ul li a:hover {
-      color:gray !important;
+      color: gray !important;
       text-decoration: underline;
       transition: all 0.3s;
     }
@@ -61,18 +64,23 @@
       color: gray;
       text-align: center;
     }
-     
+
     /* ---------------------paragraph and list --------------- */
     .p {
       text-indent: 6vw;
       margin-bottom: 2px;
     }
-    p, li, .que, .ans {
+
+    p,
+    li,
+    .que,
+    .ans {
       color: rgb(124 122 122);
       font-size: 1.2vw;
     }
-    
-    .que, .ans {
+
+    .que,
+    .ans {
       padding: 5px 0px;
     }
 
@@ -85,10 +93,11 @@
       cursor: pointer;
     }
 
-    h5, .card-text a {
+    h5,
+    .card-text a {
       color: rgb(71, 70, 70);
       font-weight: 500;
-      font-size: 1.5vw!important;
+      font-size: 1.5vw !important;
     }
 
     footer {
@@ -117,98 +126,211 @@
       transform: translateY(-10px);
       transition: all 0.5s;
     }
-#a1{display: none;}
+
+    #a1 {
+      display: none;
+    }
+
+    .photo {
+      box-shadow: 1px 1px 10px -1px grey;
+      border-radius: 50%;
+      width: 17vw;
+      height: 17vw;
+    }
+
     /* ---------------------media query ------------------------ */
     @media screen and (max-width:990px) {
-    .nav-link, footer p{margin-left: 30px;
-    padding-top: 0px; padding-bottom: 0px; }
-    .heading{
-      font-size: 2.3vw;
-    }
+
+      .navbar-brand {
+        font-size: 3vw !important;
+      }
+
+      p,
+      li,
+      .que,
+      .ans {
+        font-size: 1.6vw;
+      }
+
+      h5,
+      .card-text a {
+        font-size: 1.9vw !important;
+      }
+
+      .nav-link,
+      footer p {
+        margin-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.9vw;
+      }
+
+      .heading {
+        font-size: 2.6vw;
+      }
+
       .card-3 {
         margin-top: 15px;
         text-align: center;
-      } 
+      }
+
+      .photo {
+        width: 19vw;
+        height: 19vw;
+      }
     }
 
-    @media screen and (max-width:900px) {
-      .navbar-brand {
-      font-size: 2.2vw !important;
-    }
-    }
+
 
     @media screen and (max-width: 768px) {
+
+      .nav-link,
+      footer p {
+        font-size: 2.1vw;
+      }
+
       .card {
         margin-top: 15px;
       }
-      .card-3{
+
+      .card-3 {
         text-align: left;
+      }
+
+      p,
+      li,
+      .que,
+      .ans {
+        font-size: 1.8vw;
+      }
+
+      h5,
+      .card-text a {
+        font-size: 2vw !important;
+      }
+
+      .card i {
+        font-size: 6vw;
       }
     }
 
     @media screen and (max-width:680px) {
       .navbar-brand {
-      font-size: 3vw !important;
-    }
-    .heading{
-        font-size: 2.5vw!important;
+        font-size: 3.8vw !important;
       }
-      .nav-link, footer p{
-        font-size: 1.5vw;
+
+      .heading {
+        font-size: 2.7vw !important;
+      }
+
+      .nav-link,
+      footer p {
+        font-size: 2.2vw;
         margin-left: 20px;
       }
-      p, li, .que, .ans {
-      font-size: 1.5vw;
-    }
-    }
-    
-    @media screen and (max-width:550px){
-      .navbar-brand{
-        font-size: 3.8vw!important;
-        margin: 0px 0px!important;
-      }
-      .navbar-toggler{
-        font-size: 2vw;
-        border: 1px solid white!important;
-      }
-      .heading{
-        font-size: 3vw!important;
-      }
-      .nav-link, footer p{
-        margin-left: 3px;
+
+      p,
+      li,
+      .que,
+      .ans {
         font-size: 1.9vw;
       }
-      p, li, .que, .ans {
-      color: rgb(124 122 122);
-      font-size: 1.6vw;
-    }
-    h5, .card-text a{
-      font-size: 2.2vw!important;
+
+      .photo {
+        width: 22vw;
+        height: 22vw;
+      }
     }
 
+    @media screen and (max-width:550px) {
+      .navbar-brand {
+        font-size: 4.2vw !important;
+        margin: 0px 0px !important;
+      }
+
+      .navbar-toggler {
+        font-size: 2.5vw;
+        border: 1px solid white !important;
+      }
+
+      .heading {
+        font-size: 3.3vw !important;
+      }
+
+      .nav-link,
+      footer p {
+        margin-left: 3px;
+        font-size: 2.4vw;
+      }
+
+      p,
+      li,
+      .que,
+      .ans {
+        color: rgb(124 122 122);
+        font-size: 2.2vw;
+      }
+
+      h5,
+      .card-text a {
+        font-size: 2.5vw !important;
+      }
+
+      .card i {
+        font-size: 8vw;
+      }
+
+      .photo {
+        width: 20vw;
+        height: 20vw;
+      }
     }
-    
+
+
+    @media screen and (max-width:460px) {
+      .heading {
+        font-size: 3.9vw !important;
+      }
+
+      .nav-link,
+      footer p {
+        font-size: 2.6vw;
+      }
+
+      p,
+      li,
+      .que,
+      .ans {
+        color: rgb(124 122 122);
+        font-size: 2.4vw;
+      }
+
+      .photo {
+        width: 23vw;
+        height: 23vw;
+      }
+    }
 
     @media screen and (max-width:400px) {
-      .heading{
-        font-size: 3.6vw!important;
+
+      p,
+      li,
+      .que,
+      .ans {
+        color: rgb(124 122 122);
+        font-size: 2.6vw;
       }
-      .nav-link, footer p{font-size: 1.9vw;}
-      p, li, .que, .ans {
-      color: rgb(124 122 122);
-      font-size: 1.8vw;
+
+      h5,
+      .card-text a {
+        font-size: 2.8vw !important;
+      }
+
+      .photo {
+        width: 30vw;
+        height: 30vw;
+      }
     }
-    }
-
-
-
-    .photo {
-      box-shadow: 1px 1px 10px -1px grey;
-      border-radius: 50%;
-      width: 15vw;
-      height: 15vw;
-    }
-
   </style>
 </head>
 
@@ -268,7 +390,7 @@
       $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url=' + link + '&f=' + fromate + '"></iframe>');
     }
 
-    $(".q1").click(function(){
+    $(".q1").click(function () {
       $("#a1")
     })
   </script>
