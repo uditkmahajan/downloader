@@ -1,0 +1,62 @@
+{% extends 'basic.html' %}
+
+{% block body %}
+<div class="container mt-5">
+ <p>Download Your favourit {{slug}} videos from the Downloader in any format by doing just 3 simple steps : </p> 
+ <p>1. Open {{slug}}, copy the URL or link from {{slug}}. </p>
+ <p>2. Paste the copied link or URL to the URL input box.</p>
+ <P>3. Select the format and click download.</P>
+</div>
+
+<div class="col-md-6 offset-md-3 mt-5 mb-5">
+    <div class="card">
+      <div class="card-header bg-secondary">
+        <h5 style="text-align: center; color: white;">Download {{slug}} videos here.</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label class="text-weight form-label" for="validationDefault01"><b>Paste your copied link:</b></label>
+              <input type="txt" name="link" class="form-control link" id="validationDefault01" required>
+            </div>
+          </div>
+        </div>
+        <form class="form-download">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="text-weight"><b>Select Fromate:</b></label>
+                <select class="form-control formte" required>
+                    <option disabled style="font-weight: bold;">Audio</option>
+                    <option value="mp3">MP3</option>
+                    <option value="m4a">M4A</option>
+                    <option value="webm">WEBM</option>
+                    <option value="aac">AAC</option>
+                    <option value="flac">FLAC</option>
+                    <option value="opus">OPUS</option>
+                    <option value="ogg">OGG</option>
+            <option disabled style="font-weight: bold;">Video</option>
+                    <option value="mp4a">144 Mp4</option>
+                    <option value="360">360 Mp4</option>
+                    <option selected value="480">480 Mp4</option>
+                    <option value="720">720 Mp4</option>
+                    <option value="1080">1080 Mp4</option>
+                    <option value="4k">4k Mp4</option>
+                    <option value="8k">8k Mp4</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group mt-4 download-video">
+                <button class="btn btn-secondary btn-block click-btn-down"  style="width: 100%;" type="submit">Download</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
